@@ -19,7 +19,7 @@ export const PersonList = () => {
   return (
     <div className="PersonList">
         <div className="header">
-            <h2>My Cats: {cats.length}</h2>
+            <h2 style={{fontSize:"25px"}}>My Cats: {cats.length}</h2>
             <button onClick={() => setShow(!show)}>{show ? "Hide" : "Show"}</button>
         </div>
         <ul>
